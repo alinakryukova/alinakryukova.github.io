@@ -65,6 +65,8 @@ h1 {
     font-size: 2.5em;
 }
 
-.main-text {
-    font-size: 1.8em; /* Размер текста, как у h2 на главной */
+.special-text {
+    font-weight: normal; /* Убираем жирность */
+    color: #944b6c;      /* Устанавливаем цвет текста */
+    font-size: 1.8em;  /* зададим размер шрифта как у h2 */
 }
