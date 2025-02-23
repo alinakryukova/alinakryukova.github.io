@@ -5,7 +5,7 @@ body {
     background-image: url("hearts.png");
     background-repeat: repeat;
     background-color: #f8f8f8;
-    color: #333;
+    color: #944b6c; /* Цвет текста */
     text-align: center;
     min-height: 100vh;
     display: flex;
@@ -34,6 +34,7 @@ main {
 h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
+    color: #944b6c;
 }
 
 .button {
@@ -66,7 +67,16 @@ h1 {
 }
 
 .special-text {
-    font-weight: normal; /* Убираем жирность */
-    color: #944b6c;      /* Устанавливаем цвет текста */
-    font-size: 1.8em;  /* зададим размер шрифта как у h2 */
+    font-weight: normal;
+    color: #944b6c;
+    font-size: 1.8em;
+}
+
+.coupon-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
