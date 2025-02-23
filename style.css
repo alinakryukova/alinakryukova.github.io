@@ -1,25 +1,27 @@
 body {
-    font-family: 'Arial', sans-serif; /* Заменил шрифт на Arial (или любой другой, который тебе нравится) */
+    font-family: 'Pacifico', cursive;
     margin: 0;
     padding: 0;
     background-image: url("hearts.png");
     background-repeat: repeat;
     background-color: #f8f8f8;
     color: #333;
-    text-align: center; /* Выравниваем все по центру по умолчанию */
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-/* header */
 header {
     background-color: #52263a;
     color: white;
     padding: 20px;
-    text-align: left; /* Выравниваем заголовок по левому краю */
+    text-align: center;
 }
 
-/* main */
 main {
     padding: 20px;
+    flex: 1;
 }
 
 .container {
@@ -34,16 +36,15 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Кнопки */
 .button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
     text-decoration: none;
-    background-color: #cc749d; /* Цвет кнопок */
+    background-color: #cc749d;
     color: white;
     border: none;
-    border-radius: 25px; /* Овальные края */
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -52,10 +53,18 @@ h2 {
     background-color: #a65a7c;
 }
 
-/* footer */
 footer {
-    margin-top: 20px;
-    background-color: #52263a; /* Цвет футера */
+    margin-top: auto;
+    background-color: #52263a;
     color: white;
     padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
 }
