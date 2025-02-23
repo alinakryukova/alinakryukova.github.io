@@ -1,20 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Заменил шрифт на Arial (или любой другой, который тебе нравится) */
     margin: 0;
     padding: 0;
     background-image: url("hearts.png");
     background-repeat: repeat;
     background-color: #f8f8f8;
     color: #333;
+    text-align: center; /* Выравниваем все по центру по умолчанию */
 }
 
-header, footer {
-    background-color: #e91e63;
+/* header */
+header {
+    background-color: #52263a;
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: left; /* Выравниваем заголовок по левому краю */
 }
 
+/* main */
 main {
     padding: 20px;
 }
@@ -31,23 +34,28 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Кнопки */
 .button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
     text-decoration: none;
-    background-color: #4caf50;
+    background-color: #cc749d; /* Цвет кнопок */
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px; /* Овальные края */
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #367c39;
+    background-color: #a65a7c;
 }
 
+/* footer */
 footer {
     margin-top: 20px;
+    background-color: #52263a; /* Цвет футера */
+    color: white;
+    padding: 20px;
 }
