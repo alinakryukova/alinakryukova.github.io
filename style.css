@@ -1,13 +1,13 @@
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive; /* Изменили шрифт */
     margin: 0;
     padding: 0;
-    background-image: url("hearts.png");
+    background-image: url("hearts.png"); /* Используем hearts.png для фона */
     background-repeat: repeat;
     background-color: #f8f8f8;
     color: #333;
-    text-align: center;
-    min-height: 100vh;
+    text-align: center; /* Выравниваем все по центру по умолчанию */
+    min-height: 100vh; /* Занимает всю высоту экрана */
     display: flex;
     flex-direction: column;
 }
@@ -16,12 +16,12 @@ header {
     background-color: #52263a;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Заголовки по центру */
 }
 
 main {
     padding: 20px;
-    flex: 1;
+    flex: 1; /* Занимает оставшееся пространство */
 }
 
 .container {
@@ -54,7 +54,7 @@ h2 {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: auto; /* Прижимаем к низу */
     background-color: #52263a;
     color: white;
     padding: 20px;
@@ -62,9 +62,9 @@ footer {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; /* Увеличили размер заголовка h1, чтобы шрифт Pacifico был лучше виден */
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.8em; /* Увеличили размер заголовка h2 для баланса */
 }
